@@ -1,0 +1,22 @@
+{
+  "name": "manager",
+  "version": "1.0.0",
+  "description": "task manager",
+  "main": "manager.js",
+  "scripts": {
+    "start": "node manager.js",
+    "dev": "nodemon manager.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Anna Bulavina <ann_rose@ukr.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
